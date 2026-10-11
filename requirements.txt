@@ -1,0 +1,12 @@
+# Versions used for every run reported in the paper (Python 3.9.18, CUDA 11.8)
+torch==2.5.0
+optuna==4.6.0
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.6.1
+
+# data download only
+yfinance==0.2.61
+refinitiv-data==1.6.2   # LSEG Workspace data library (commodity futures, licensed)
+httpx==0.28.1           # see 1_commodity_futures/data/lseg_compat.py

@@ -1,0 +1,15 @@
+# data: licensed (LSEG) or downloaded and built locally
+*/data/raw/
+*/data/raw_lseg/
+*/data/*.csv
+
+# outputs of the experiments
+*/results*/
+*/logs/
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# outputs of 3_analysis/make_tables.py
+output/
